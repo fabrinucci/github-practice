@@ -6,7 +6,7 @@
 
 body {
   background-color: #3d3dca;
-  color: #d7d7d7;
+  color: #ee5858;
 }
 
 main {
@@ -33,7 +33,8 @@ main {
 }
 
 .title,
-.subtitle {
+.subtitle,
+.info {
   margin-bottom: 20px;
 }
 
@@ -42,4 +43,11 @@ main {
   font-size: 18px;
   letter-spacing: .1em;
   line-height: 25px;
+}
+
+.extra {
+  color: antiquewhite;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
 }
